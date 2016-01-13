@@ -1,0 +1,13 @@
+controller_injection_example.hello_world:
+  path: '/hello-world'
+  defaults:
+    _controller: '\Drupal\controller_injection_example\HelloWorldController::render'
+  requirements:
+    _permission: 'access content'
+
+controller_injection_example.not_unit_tested:
+  path: '/not-unit-tested'
+  defaults:
+    _controller: '\Drupal\controller_injection_example\NotUnitTested::render'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+controller_injection_example.hello_world:
+  title: 'Hello world!'
+  route_name: controller_injection_example.hello_world
+controller_injection_example.not_unit_tested:
+  title: 'A world without unit tests!'
+  route_name: controller_injection_example.not_unit_tested
